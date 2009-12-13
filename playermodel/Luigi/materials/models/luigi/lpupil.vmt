@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\luigi/lpupil"
-               "$halflambert"1 
-	"$alphatest"1 
-}
