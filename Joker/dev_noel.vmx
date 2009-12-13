@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4037"
-	"mapversion" "29"
+	"mapversion" "30"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "29"
+	"mapversion" "30"
 	"classname" "worldspawn"
 	"skyname" "snowyhills"
 	"maxpropscreenwidth" "-1"
@@ -8852,13 +8852,32 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "4295"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"solid" "6"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/cloud/kn_xmastree.mdl"
+	"skin" "0"
+	"origin" "196 -168 -556"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[583.019 200.793 59.4161]"
-		"look" "[444.52 457.671 8.51186]"
+		"position" "[148.757 429.146 -126.862]"
+		"look" "[158.647 703.064 -239.246]"
 	}
 }
 cordon
