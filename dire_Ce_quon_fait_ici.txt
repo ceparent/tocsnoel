@@ -1,2 +1,25 @@
 dim.13: j'ai regler le bugmap.
 j'ai mis le vmf dans: mixed/dev_noel.vmf
+
+-------------------------------------------
+Todo
+
+- Tombé des cadeaux du ciel en aléatoire
+- Pouvoirs à scripter
+- Respawn
+- Copie du player en plusieurs player (nom des entités à changer)
+- Si on a le temps on verra l'ambiance (sons, events etc)
+
+-------------------------------------------
+
+
+----- Pouvoirs à créer
+
+- boule de neige
+- tornade
+- teleport
+- push de tous les cotés
+
+----- Event aléatoire
+
+- tempete (De la neige, du vent [avec un push], des eclairs aléatoire qui font mal si possible)
