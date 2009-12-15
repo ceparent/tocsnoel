@@ -2,7 +2,7 @@ dim.13: j'ai regler le bugmap.
 j'ai mis le vmf dans: mixed/dev_noel.vmf
 
 -------------------------------------------
-Todo
+------Todo------
 
 - Tombé des cadeaux du ciel en aléatoire
 - Pouvoirs à scripter
@@ -23,3 +23,17 @@ Todo
 ----- Event aléatoire
 
 - tempete (De la neige, du vent [avec un push], des eclairs aléatoire qui font mal si possible)
+
+-------------------------------
+
+-----Il faut trouver (facultatif):
+
+-une maniere de differencier les cadeaux
+-Un model pere noel
+-un model de traineau
+-QUelquechose a modifier dans la map pour la rendre encore meilleur
+-des pouvoirs de plus
+
+-----------------------------------------------
+Donc je m'attarde surtout sur trouver models pere noel & traineau, sinon le pouvoir s'il y a lieu
+-----------------------------------------------
