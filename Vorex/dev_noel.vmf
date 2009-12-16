@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4037"
-	"mapversion" "46"
+	"mapversion" "51"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "46"
+	"mapversion" "51"
 	"classname" "worldspawn"
 	"skyname" "snowyhills"
 	"maxpropscreenwidth" "-1"
@@ -8887,6 +8887,7 @@ entity
 	{
 		"AttackAxis" "ssbm_player-1_push,SetValueCompare,,0,-1"
 		"Attack2Axis" "ssbm_player-1_special,SetValueCompare,,0,-1"
+		"AttackAxis" "test,StartShake,,0,-1"
 	}
 	"origin" "201.927 -842 -112.616"
 	editor
@@ -9559,7 +9560,7 @@ entity
 	"pushdir" "0 0 0"
 	"speed" "1000"
 	"spawnflags" "1"
-	"origin" "329.93 -818 -62.12"
+	"origin" "339.47 -818 -64"
 	"targetname" "ssbm_player-1_pushTrigger"
 	"angles" "23 193 0"
 	"parentname" "ssbm_player-1"
@@ -9569,7 +9570,7 @@ entity
 		side
 		{
 			"id" "3036"
-			"plane" "(273.927 -848 -20.616) (273.927 -788 -20.616) (385.927 -788 -20.616)"
+			"plane" "(288 -848 -20.616) (288 -788 -20.616) (352 -788 -20.616)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 56.2924] 0.25"
 			"vaxis" "[0 -1 0 -8] 0.25"
@@ -9580,7 +9581,7 @@ entity
 		side
 		{
 			"id" "3035"
-			"plane" "(273.927 -788 -103.616) (273.927 -848 -103.616) (385.927 -848 -103.616)"
+			"plane" "(288 -788 -103.616) (288 -848 -103.616) (352 -848 -103.616)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 56.2924] 0.25"
 			"vaxis" "[0 -1 0 -8] 0.25"
@@ -9591,7 +9592,7 @@ entity
 		side
 		{
 			"id" "3034"
-			"plane" "(273.927 -848 -103.616) (273.927 -788 -103.616) (273.927 -788 -20.616)"
+			"plane" "(288.001 -848 -103.616) (288.001 -788 -103.616) (288.001 -788 -20.6172)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 8] 0.25"
 			"vaxis" "[0 0 -1 29.5359] 0.25"
@@ -9602,7 +9603,7 @@ entity
 		side
 		{
 			"id" "3033"
-			"plane" "(385.927 -788 -103.616) (385.927 -848 -103.616) (385.927 -848 -20.616)"
+			"plane" "(352 -788 -103.616) (352 -848 -103.616) (352 -848 -20.6172)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 8] 0.25"
 			"vaxis" "[0 0 -1 29.5359] 0.25"
@@ -9613,7 +9614,7 @@ entity
 		side
 		{
 			"id" "3032"
-			"plane" "(273.927 -788 -103.616) (385.927 -788 -103.616) (385.927 -788 -20.616)"
+			"plane" "(288 -788 -103.616) (352 -788 -103.616) (352 -788 -20.6172)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 56.2924] 0.25"
 			"vaxis" "[0 0 -1 29.5359] 0.25"
@@ -9624,7 +9625,7 @@ entity
 		side
 		{
 			"id" "3031"
-			"plane" "(385.927 -848 -103.616) (273.927 -848 -103.616) (273.927 -848 -20.616)"
+			"plane" "(352 -848 -103.616) (288 -848 -103.616) (288 -848 -20.6172)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 56.2924] 0.25"
 			"vaxis" "[0 0 -1 29.5359] 0.25"
@@ -9653,7 +9654,7 @@ entity
 	"classname" "func_precipitation"
 	"renderamt" "50"
 	"rendercolor" "100 100 100"
-	"preciptype" "1"
+	"preciptype" "3"
 	solid
 	{
 		"id" "4444"
@@ -10015,13 +10016,32 @@ entity
 		"logicalpos" "[0 500]"
 	}
 }
+entity
+{
+	"id" "4843"
+	"classname" "env_shake"
+	"amplitude" "16"
+	"radius" "6781"
+	"duration" "3"
+	"frequency" "255"
+	"targetname" "test"
+	"spawnflags" "29"
+	"origin" "275.911 -776.879 -123.876"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[317.174 -271.002 1511.8]"
-		"look" "[317.174 -271.002 1808.04]"
+		"position" "[430.997 -626.805 29.4908]"
+		"look" "[224.497 -818.029 -62.967]"
 	}
 }
 cordon
