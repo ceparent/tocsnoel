@@ -37,3 +37,10 @@ j'ai mis le vmf dans: mixed/dev_noel.vmf
 -----------------------------------------------
 Donc je m'attarde surtout sur trouver models pere noel & traineau, sinon le pouvoir s'il y a lieu
 -----------------------------------------------
+
+Désolé je peux pas taffer dessus ce soir je suis rentré tard (21H30-22H) demain j'ai des greve et de la neige donc faut que je me leve plus tot, je suis complètement crevé la je peux pas dsl demain j'essayerais de faire les 4pouvoirs. Si tes chaud et plus trop en exam et que tu prefere te pencher sur des entités plutot que les models tu peux toujours tenter la tempete ya quelque tuto sympa sur ce genre d'events genre : 
+
+- http://www.siteduzero.com/tutoriel-3-7118-elements-naturels-et-fumees.html#ss_part_3
+- http://www.zakstudio.com/2009/02/13/07-creation-de-bourrasques-counter-strike-source/
+
+bn
