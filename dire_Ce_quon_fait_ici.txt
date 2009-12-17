@@ -48,7 +48,7 @@ bn
 
 Je vais aller me coucher, j'ai fait la tempete, pour pouvoir bien voir mes entity,va falloir que tu rajoute le fgd "joker.fgd", qui contient l'entity "point_push", qui permet de ne pas se casser la tete,
 sinon, j'ai mis un son, il est dans le dossier cstrike sur le svn, tu en a besoin pour l'entendre (bah oui quoi xD).
-Il y a maintenant 2 boutons temporaires qui servent a activer/desactiver la tempete. Si tu veux, hcange les pour de evenements aleatoire, mais j'aimerais que tu change mon env_smokestack (si tu veux) en quelquechose de plus realiste, si possible.
+Il y a maintenant 2 boutons temporaires qui servent a activer/desactiver la tempete, ils sont situer proche des 3 trucs en bois sur on pourrai dire la plateforme "principale". Si tu veux, change les pour de evenements aleatoire, mais j'aimerais que tu change mon env_smokestack (si tu veux) en quelquechose de plus realiste, si possible.
 Donc le vmf que jai modif est  vorex/dev_noel.
 
 essai d'etre la demain quand j'arrive, je t'expliquerai plus en detail, mais il faudrait que la tempete sois un evenment separer des eclairs/foudre. A coter des boutons j'ai placer 5 ambient_generic de sons de tonnerres, si tu veu t'y aventurer.
