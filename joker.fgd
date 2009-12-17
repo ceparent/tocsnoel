@@ -1,0 +1,24 @@
+@PointClass base(Targetname, Angles) sphere(radius) sphere(inner_radius) = point_push: "Point Push"
+[
+	spawnflags(Flags) = 
+	[
+		1 : "Test LOS before pushing" : 0
+		2 : "Use angles for push direction" : 0
+		4 : "No falloff (constant push at any distance)" : 0
+		8 : "Push players" : 1
+		16 : "Push physics" : 1
+	]
+	
+	enabled(choices) : "Start Enabled"	: 1 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	magnitude(float) : "Magnitude" : 100 : "How strongly to push away from the center."
+	radius(float) : "Radius" : 128 : "Radius to affect items in."
+	inner_radius(float) : "Inner radius" : "0" : "If not zero, the LOS is calculated from a point intersecting this sphere."
+	
+	input Enable(void) : "Enable the push."
+	input Disable(void): "Disable the push."
+]

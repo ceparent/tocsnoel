@@ -701,3 +701,1916 @@ Reduced 90 texinfos to 74
 Reduced 6 texdatas to 6 (104 bytes to 104)
 Writing C:\mapping\ssb_xmas\Vorex\dev_noel.bsp
 2 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12382 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 96 texinfos to 80
+Reduced 6 texdatas to 6 (104 bytes to 104)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4874
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+237 faces
+697316 square feet [100413560.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+237 patches before subdivision
+13390 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 138182, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42225, 51437, 72881)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3296, 3961, 5590)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(337, 404, 571)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 50, 71)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 7, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0200 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                 27/8192          324/98304    ( 0.3%) 
+brushsides             182/65536        1456/524288   ( 0.3%) 
+planes                 404/65536        8080/1310720  ( 0.6%) 
+vertexes               458/65536        5496/786432   ( 0.7%) 
+nodes                  210/65536        6720/2097152  ( 0.3%) 
+texinfos                80/12288        5760/884736   ( 0.7%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  237/65536       13272/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              175/65536        9800/3670016  ( 0.3%) 
+leaves                 220/65536        7040/2097152  ( 0.3%) 
+leaffaces              194/65536         388/131072   ( 0.3%) 
+leafbrushes             80/65536         160/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1710/512000       6840/2048000  ( 0.3%) 
+edges                  890/256000       3560/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      445160/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1824/16777216 ( 0.0%) 
+entdata               [variable]        9765/393216   ( 2.5%) 
+LDR leaf ambient       220/65536        5280/1572864  ( 0.3%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       12382/4194304  ( 0.3%) 
+==== Total Win32 BSP file data space used: 1372239 bytes ====
+
+Total triangle count: 520
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 6 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12382 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 96 texinfos to 80
+Reduced 6 texdatas to 6 (104 bytes to 104)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4874
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+237 faces
+697316 square feet [100413560.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+237 patches before subdivision
+13390 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 138182, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42225, 51437, 72881)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3296, 3961, 5590)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(337, 404, 571)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 50, 71)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 7, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0182 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                 27/8192          324/98304    ( 0.3%) 
+brushsides             182/65536        1456/524288   ( 0.3%) 
+planes                 404/65536        8080/1310720  ( 0.6%) 
+vertexes               458/65536        5496/786432   ( 0.7%) 
+nodes                  210/65536        6720/2097152  ( 0.3%) 
+texinfos                80/12288        5760/884736   ( 0.7%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  237/65536       13272/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              175/65536        9800/3670016  ( 0.3%) 
+leaves                 220/65536        7040/2097152  ( 0.3%) 
+leaffaces              194/65536         388/131072   ( 0.3%) 
+leafbrushes             80/65536         160/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1710/512000       6840/2048000  ( 0.3%) 
+edges                  890/256000       3560/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      445160/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1824/16777216 ( 0.0%) 
+entdata               [variable]       10130/393216   ( 2.6%) 
+LDR leaf ambient       220/65536        5280/1572864  ( 0.3%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       12382/4194304  ( 0.3%) 
+==== Total Win32 BSP file data space used: 1372604 bytes ====
+
+Total triangle count: 520
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 9 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12932 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 102 texinfos to 83
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4874
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+243 faces
+697320 square feet [100414200.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+243 patches before subdivision
+13396 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 138773, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42825, 52192, 73999)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3310, 3978, 5613)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(339, 407, 575)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(41, 50, 71)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 7, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0437 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                 28/8192          336/98304    ( 0.3%) 
+brushsides             188/65536        1504/524288   ( 0.3%) 
+planes                 426/65536        8520/1310720  ( 0.7%) 
+vertexes               466/65536        5592/786432   ( 0.7%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos                83/12288        5976/884736   ( 0.7%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  243/65536       13608/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              181/65536       10136/3670016  ( 0.3%) 
+leaves                 227/65536        7264/2097152  ( 0.3%) 
+leaffaces              200/65536         400/131072   ( 0.3%) 
+leafbrushes             81/65536         162/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1758/512000       7032/2048000  ( 0.3%) 
+edges                  914/256000       3656/1024000  ( 0.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      445280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1824/16777216 ( 0.0%) 
+entdata               [variable]       10567/393216   ( 2.7%) 
+LDR leaf ambient       227/65536        5448/1572864  ( 0.3%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       12932/4194304  ( 0.3%) 
+==== Total Win32 BSP file data space used: 1376161 bytes ====
+
+Total triangle count: 532
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 8 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12932 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 102 texinfos to 83
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 4877
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+243 faces
+697320 square feet [100414200.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+243 patches before subdivision
+13396 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 138773, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42825, 52191, 73999)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3311, 3978, 5613)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(339, 407, 575)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(41, 50, 71)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 7, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0172 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                 28/8192          336/98304    ( 0.3%) 
+brushsides             188/65536        1504/524288   ( 0.3%) 
+planes                 426/65536        8520/1310720  ( 0.7%) 
+vertexes               466/65536        5592/786432   ( 0.7%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos                83/12288        5976/884736   ( 0.7%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  243/65536       13608/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              181/65536       10136/3670016  ( 0.3%) 
+leaves                 227/65536        7264/2097152  ( 0.3%) 
+leaffaces              200/65536         400/131072   ( 0.3%) 
+leafbrushes             81/65536         162/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1758/512000       7032/2048000  ( 0.3%) 
+edges                  914/256000       3656/1024000  ( 0.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      445280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1824/16777216 ( 0.0%) 
+entdata               [variable]       10569/393216   ( 2.7%) 
+LDR leaf ambient       227/65536        5448/1572864  ( 0.3%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       12932/4194304  ( 0.3%) 
+==== Total Win32 BSP file data space used: 1376163 bytes ====
+
+Total triangle count: 532
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 7 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12932 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 102 texinfos to 83
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 4877
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+243 faces
+697320 square feet [100414200.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+243 patches before subdivision
+13396 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 138773, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42825, 52191, 73999)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3311, 3978, 5613)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(339, 407, 575)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(41, 50, 71)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 7, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0227 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                 28/8192          336/98304    ( 0.3%) 
+brushsides             188/65536        1504/524288   ( 0.3%) 
+planes                 426/65536        8520/1310720  ( 0.7%) 
+vertexes               466/65536        5592/786432   ( 0.7%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos                83/12288        5976/884736   ( 0.7%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  243/65536       13608/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              181/65536       10136/3670016  ( 0.3%) 
+leaves                 227/65536        7264/2097152  ( 0.3%) 
+leaffaces              200/65536         400/131072   ( 0.3%) 
+leafbrushes             81/65536         162/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1758/512000       7032/2048000  ( 0.3%) 
+edges                  914/256000       3656/1024000  ( 0.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      445280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1824/16777216 ( 0.0%) 
+entdata               [variable]       10555/393216   ( 2.7%) 
+LDR leaf ambient       227/65536        5448/1572864  ( 0.3%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       12932/4194304  ( 0.3%) 
+==== Total Win32 BSP file data space used: 1376149 bytes ====
+
+Total triangle count: 532
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 6 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12932 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 102 texinfos to 83
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12932 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 102 texinfos to 83
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12932 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 102 texinfos to 83
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12932 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 102 texinfos to 83
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12932 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 102 texinfos to 83
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13482 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 105 texinfos to 86
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13482 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 105 texinfos to 86
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4874
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+249 faces
+697331 square feet [100415736.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+249 patches before subdivision
+13402 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13482 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 105 texinfos to 86
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4874
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+249 faces
+697331 square feet [100415736.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+249 patches before subdivision
+13402 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 139398, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13064, 13220, 13378)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1085, 1097, 1118)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(118, 120, 123)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 15, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 29/8192          348/98304    ( 0.4%) 
+brushsides             194/65536        1552/524288   ( 0.3%) 
+planes                 444/65536        8880/1310720  ( 0.7%) 
+vertexes               474/65536        5688/786432   ( 0.7%) 
+nodes                  222/65536        7104/2097152  ( 0.3%) 
+texinfos                86/12288        6192/884736   ( 0.7%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  249/65536       13944/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              187/65536       10472/3670016  ( 0.3%) 
+leaves                 234/65536        7488/2097152  ( 0.4%) 
+leaffaces              206/65536         412/131072   ( 0.3%) 
+leafbrushes             82/65536         164/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1806/512000       7224/2048000  ( 0.4%) 
+edges                  938/256000       3752/1024000  ( 0.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      784284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1824/16777216 ( 0.0%) 
+entdata               [variable]       12975/393216   ( 3.3%) 
+LDR leaf ambient       234/65536        5616/1572864  ( 0.4%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       13482/4194304  ( 0.3%) 
+==== Total Win32 BSP file data space used: 1720461 bytes ====
+
+Total triangle count: 544
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 6 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16136 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 105 texinfos to 83
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  86 portalclusters
+ 282 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 5130
+Average clusters visible: 59
+Building PAS...
+Average clusters audible: 59
+visdatasize:2392  compressed from 2752
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+291 faces
+961751 square feet [138492160.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+291 patches before subdivision
+13444 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 138773, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12980, 13136, 13292)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1079, 1091, 1112)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(117, 119, 122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 15, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0196 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/1024          576/49152    ( 1.2%) 
+brushes                 36/8192          432/98304    ( 0.4%) 
+brushsides             236/65536        1888/524288   ( 0.4%) 
+planes                 480/65536        9600/1310720  ( 0.7%) 
+vertexes               548/65536        6576/786432   ( 0.8%) 
+nodes                  299/65536        9568/2097152  ( 0.5%) 
+texinfos                83/12288        5976/884736   ( 0.7%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  291/65536       16296/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              187/65536       10472/3670016  ( 0.3%) 
+leaves                 312/65536        9984/2097152  ( 0.5%) 
+leaffaces              248/65536         496/131072   ( 0.4%) 
+leafbrushes            131/65536         262/131072   ( 0.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             1974/512000       7896/2048000  ( 0.4%) 
+edges                 1034/256000       4136/1024000  ( 0.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      784284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2392/16777216 ( 0.0%) 
+entdata               [variable]       13024/393216   ( 3.3%) 
+LDR leaf ambient       312/65536        7488/1572864  ( 0.5%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       16136/4194304  ( 0.4%) 
+==== Total Win32 BSP file data space used: 1736022 bytes ====
+
+Total triangle count: 628
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 17 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13482 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 107 texinfos to 83
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 4877
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+243 faces
+697320 square feet [100414200.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+243 patches before subdivision
+13396 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 138773, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12980, 13136, 13292)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1079, 1091, 1112)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(117, 119, 122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 15, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0164 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 29/8192          348/98304    ( 0.4%) 
+brushsides             194/65536        1552/524288   ( 0.3%) 
+planes                 446/65536        8920/1310720  ( 0.7%) 
+vertexes               474/65536        5688/786432   ( 0.7%) 
+nodes                  222/65536        7104/2097152  ( 0.3%) 
+texinfos                83/12288        5976/884736   ( 0.7%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  243/65536       13608/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              181/65536       10136/3670016  ( 0.3%) 
+leaves                 234/65536        7488/2097152  ( 0.4%) 
+leaffaces              200/65536         400/131072   ( 0.3%) 
+leafbrushes             82/65536         164/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1758/512000       7032/2048000  ( 0.3%) 
+edges                  914/256000       3656/1024000  ( 0.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      784284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1824/16777216 ( 0.0%) 
+entdata               [variable]       12521/393216   ( 3.2%) 
+LDR leaf ambient       234/65536        5616/1572864  ( 0.4%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       13482/4194304  ( 0.3%) 
+==== Total Win32 BSP file data space used: 1718859 bytes ====
+
+Total triangle count: 532
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 6 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13482 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 107 texinfos to 83
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 4877
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+243 faces
+697320 square feet [100414200.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+243 patches before subdivision
+13396 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 138773, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12980, 13136, 13292)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1079, 1091, 1112)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(117, 119, 122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 15, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0523 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 29/8192          348/98304    ( 0.4%) 
+brushsides             194/65536        1552/524288   ( 0.3%) 
+planes                 446/65536        8920/1310720  ( 0.7%) 
+vertexes               474/65536        5688/786432   ( 0.7%) 
+nodes                  222/65536        7104/2097152  ( 0.3%) 
+texinfos                83/12288        5976/884736   ( 0.7%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  243/65536       13608/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              181/65536       10136/3670016  ( 0.3%) 
+leaves                 234/65536        7488/2097152  ( 0.4%) 
+leaffaces              200/65536         400/131072   ( 0.3%) 
+leafbrushes             82/65536         164/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1758/512000       7032/2048000  ( 0.3%) 
+edges                  914/256000       3656/1024000  ( 0.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      784284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1824/16777216 ( 0.0%) 
+entdata               [variable]       12439/393216   ( 3.2%) 
+LDR leaf ambient       234/65536        5616/1572864  ( 0.4%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       13482/4194304  ( 0.3%) 
+==== Total Win32 BSP file data space used: 1718777 bytes ====
+
+Total triangle count: 532
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 7 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17987 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 128 texinfos to 106
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4874
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+291 faces
+705326 square feet [101567016.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+291 patches before subdivision
+13444 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 141105, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13242, 13401, 13561)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1095, 1108, 1129)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(119, 120, 124)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 15, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             258/65536        2064/524288   ( 0.4%) 
+planes                 566/65536       11320/1310720  ( 0.9%) 
+vertexes               550/65536        6600/786432   ( 0.8%) 
+nodes                  270/65536        8640/2097152  ( 0.4%) 
+texinfos               106/12288        7632/884736   ( 0.9%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  291/65536       16296/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              229/65536       12824/3670016  ( 0.3%) 
+leaves                 287/65536        9184/2097152  ( 0.4%) 
+leaffaces              248/65536         496/131072   ( 0.4%) 
+leafbrushes             87/65536         174/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2214/512000       8856/2048000  ( 0.4%) 
+edges                 1142/256000       4568/1024000  ( 0.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      784284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1824/16777216 ( 0.0%) 
+entdata               [variable]       13726/393216   ( 3.5%) 
+LDR leaf ambient       287/65536        6888/1572864  ( 0.4%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       17987/4194304  ( 0.4%) 
+==== Total Win32 BSP file data space used: 1743071 bytes ====
+
+Total triangle count: 664
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 6 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36523 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 177 texinfos to 155
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4874
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+487 faces
+814797 square feet [117330792.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+487 patches before subdivision
+13640 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 144426, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13515, 13678, 13841)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1104, 1117, 1139)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(119, 121, 125)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 15, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0218 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/1024         1440/49152    ( 2.9%) 
+brushes                 48/8192          576/98304    ( 0.6%) 
+brushsides             454/65536        3632/524288   ( 0.7%) 
+planes                 896/65536       17920/1310720  ( 1.4%) 
+vertexes               886/65536       10632/786432   ( 1.4%) 
+nodes                  466/65536       14912/2097152  ( 0.7%) 
+texinfos               155/12288       11160/884736   ( 1.3%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  487/65536       27272/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              425/65536       23800/3670016  ( 0.6%) 
+leaves                 497/65536       15904/2097152  ( 0.8%) 
+leaffaces              444/65536         888/131072   ( 0.7%) 
+leafbrushes            101/65536         202/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4230/512000      16920/2048000  ( 0.8%) 
+edges                 2150/256000       8600/1024000  ( 0.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      784284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1824/16777216 ( 0.0%) 
+entdata               [variable]       17324/393216   ( 4.4%) 
+LDR leaf ambient       497/65536       11928/1572864  ( 0.8%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       36523/4194304  ( 0.9%) 
+==== Total Win32 BSP file data space used: 1834273 bytes ====
+
+Total triangle count: 1280
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 6 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17987 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 128 texinfos to 106
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4874
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+291 faces
+705326 square feet [101567016.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+291 patches before subdivision
+13444 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 141105, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13242, 13401, 13561)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1095, 1108, 1129)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(119, 120, 124)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 15, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0230 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             258/65536        2064/524288   ( 0.4%) 
+planes                 566/65536       11320/1310720  ( 0.9%) 
+vertexes               550/65536        6600/786432   ( 0.8%) 
+nodes                  270/65536        8640/2097152  ( 0.4%) 
+texinfos               106/12288        7632/884736   ( 0.9%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  291/65536       16296/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              229/65536       12824/3670016  ( 0.3%) 
+leaves                 287/65536        9184/2097152  ( 0.4%) 
+leaffaces              248/65536         496/131072   ( 0.4%) 
+leafbrushes             87/65536         174/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2214/512000       8856/2048000  ( 0.4%) 
+edges                 1142/256000       4568/1024000  ( 0.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      784284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1824/16777216 ( 0.0%) 
+entdata               [variable]       13991/393216   ( 3.6%) 
+LDR leaf ambient       287/65536        6888/1572864  ( 0.4%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       17987/4194304  ( 0.4%) 
+==== Total Win32 BSP file data space used: 1743336 bytes ====
+
+Total triangle count: 664
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 6 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18537 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 130 texinfos to 108
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+  70 portalclusters
+ 258 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4874
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 70
+visdatasize:1824  compressed from 2240
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+297 faces
+705330 square feet [101567656.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+297 patches before subdivision
+13450 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 141681, max 137
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13343, 13504, 13665)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1100, 1113, 1135)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(119, 121, 124)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 15, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0367 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             264/65536        2112/524288   ( 0.4%) 
+planes                 568/65536       11360/1310720  ( 0.9%) 
+vertexes               558/65536        6696/786432   ( 0.9%) 
+nodes                  276/65536        8832/2097152  ( 0.4%) 
+texinfos               108/12288        7776/884736   ( 0.9%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  297/65536       16632/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              235/65536       13160/3670016  ( 0.4%) 
+leaves                 294/65536        9408/2097152  ( 0.4%) 
+leaffaces              254/65536         508/131072   ( 0.4%) 
+leafbrushes             88/65536         176/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2262/512000       9048/2048000  ( 0.4%) 
+edges                 1166/256000       4664/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      784464/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1824/16777216 ( 0.0%) 
+entdata               [variable]       15537/393216   ( 4.0%) 
+LDR leaf ambient       294/65536        7056/1572864  ( 0.4%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1330     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       18537/4194304  ( 0.4%) 
+==== Total Win32 BSP file data space used: 1747558 bytes ====
+
+Total triangle count: 676
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 7 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18537 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 130 texinfos to 108
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
