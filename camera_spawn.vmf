@@ -1,0 +1,55 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "4037"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "20"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "italy"
+	"maxpropscreenwidth" "-1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+}
+entity
+{
+	"id" "21"
+	"classname" "info_target"
+	"targetname" "spec_target"
+	"angles" "0 0 0"
+	"origin" "-8 56 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 11000]"
+	}
+}
+entity
+{
+	"id" "23"
+	"classname" "point_viewcontrol"
+	"target" "spec_target"
+	"targetname" "spec_viewer"
+	"spawnflags" "3"
+	"deceleration" "500"
+	"acceleration" "500"
+	"speed" "0"
+	"interpolatepositiontoplayer" "0"
+	"wait" "10"
+	"angles" "0 90 0"
+	"origin" "-8.31982 -69.4033 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 10500]"
+	}
+}
