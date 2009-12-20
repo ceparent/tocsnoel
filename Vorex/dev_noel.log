@@ -2773,3 +2773,132 @@ Reduced 193 texinfos to 120
 Reduced 7 texdatas to 6 (126 bytes to 104)
 Writing C:\mapping\ssb_xmas\Vorex\dev_noel.bsp
 3 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (49426 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 218 texinfos to 139
+Reduced 8 texdatas to 7 (141 bytes to 119)
+Writing C:\Users\Moi\Desktop\tocs_noel\Vorex\dev_noel.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+reading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.prt
+ 102 portalclusters
+ 298 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 6556
+Average clusters visible: 64
+Building PAS...
+Average clusters audible: 64
+visdatasize:3136  compressed from 3264
+writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+6 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+617 faces
+715916 square feet [103091904.00 square inches]
+48 displacements
+87051 square feet [12535404.00 square inches]
+617 patches before subdivision
+14582 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 153621, max 137
+transfer lists:   1.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13150, 13308, 13467)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1090, 1102, 1123)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(118, 120, 123)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 15, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0173 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  52/1024         2496/49152    ( 5.1%) 
+brushes                104/8192         1248/98304    ( 1.3%) 
+brushsides             658/65536        5264/524288   ( 1.0%) 
+planes                 736/65536       14720/1310720  ( 1.1%) 
+vertexes              1117/65536       13404/786432   ( 1.7%) 
+nodes                  560/65536       17920/2097152  ( 0.9%) 
+texinfos               139/12288       10008/884736   ( 1.1%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      482996/0          482996/0        ( 0.0%) 
+faces                  617/65536       34552/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              447/65536       25032/3670016  ( 0.7%) 
+leaves                 613/65536       19616/2097152  ( 0.9%) 
+leaffaces              575/65536        1150/131072   ( 0.9%) 
+leafbrushes            273/65536         546/131072   ( 0.4%) 
+areas                   23/256           184/2048     ( 9.0%) 
+surfedges             4356/512000      17424/2048000  ( 0.9%) 
+edges                 2265/256000       9060/1024000  ( 0.9%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            48/65536          96/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      819848/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3136/16777216 ( 0.0%) 
+entdata               [variable]       36221/393216   ( 9.2%) 
+LDR leaf ambient       613/65536       14712/1572864  ( 0.9%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1346     ( 0.1%) 
+pakfile               [variable]       10010/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]       49426/4194304  ( 1.2%) 
+==== Total Win32 BSP file data space used: 1925255 bytes ====
+
+Total triangle count: 1318
+Writing c:\users\moi\desktop\tocs_noel\vorex\dev_noel.bsp
+1 minute, 9 seconds elapsed
