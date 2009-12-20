@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4037"
-	"mapversion" "200"
+	"mapversion" "201"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "200"
+	"mapversion" "201"
 	"classname" "worldspawn"
 	"skyname" "snowyhills"
 	"maxpropscreenwidth" "-1"
@@ -21062,13 +21062,73 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "17467"
+	"classname" "env_sprite"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"_minlight" "0.0"
+	"framerate" "10.0"
+	"model" "tocs_noel/boule"
+	"GlowProxySize" "2.0"
+	"targetname" "ssbm_player-2_icon-boule"
+	"origin" "319.152 398.464 -358.495"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "17474"
+	"classname" "env_sprite"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"_minlight" "0.0"
+	"framerate" "10.0"
+	"model" "tocs_noel/tele"
+	"GlowProxySize" "2.0"
+	"targetname" "ssbm_player-2_icon-tele"
+	"origin" "359.594 396.827 -352.669"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "17481"
+	"classname" "env_sprite"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"_minlight" "0.0"
+	"framerate" "10.0"
+	"model" "tocs_noel/push"
+	"GlowProxySize" "2.0"
+	"targetname" "ssbm_player-2_icon-push"
+	"origin" "397.596 394.582 -345.842"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[205.024 532.651 -108.52]"
-		"look" "[53.8687 545.343 -362.977]"
+		"position" "[337.746 135.958 -142.296]"
+		"look" "[328.075 412.823 -247.224]"
 	}
 }
 cordon
