@@ -1,0 +1,141 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "4037"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "278"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "italy"
+	"maxpropscreenwidth" "-1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+}
+entity
+{
+	"id" "279"
+	"classname" "ambient_generic"
+	"health" "10"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "48"
+	"targetname" "ssbm_music_3"
+	"message" "tocs_noel/musics/ssb_1.mp3"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "282"
+	"classname" "ambient_generic"
+	"health" "10"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "48"
+	"targetname" "ssbm_music_1"
+	"message" "tocs_noel/musics/ssb_2.mp3"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "285"
+	"classname" "ambient_generic"
+	"health" "10"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "48"
+	"targetname" "ssbm_music_2"
+	"message" "tocs_noel/musics/ssb_3.mp3"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "288"
+	"classname" "ambient_generic"
+	"health" "10"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "48"
+	"targetname" "ssbm_music_4"
+	"message" "tocs_noel/musics/ssb_4.mp3"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "291"
+	"classname" "logic_case"
+	"targetname" "ssbm_music_logic"
+	"Case01" "1"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	connections
+	{
+		"OnCase01" "ssbm_music_1,PlaySound,,0,-1"
+		"OnCase02" "ssbm_music_2,PlaySound,,0,-1"
+		"OnCase04" "ssbm_music_4,PlaySound,,0,-1"
+		"OnCase03" "ssbm_music_3,PlaySound,,0,-1"
+	}
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "293"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "ssbm_music_logic,PickRandom,,0,-1"
+	}
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
