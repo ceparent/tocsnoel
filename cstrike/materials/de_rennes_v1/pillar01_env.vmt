@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_rennes_v1/pillar01_env"
+	"$surfaceprop" "concrete"
+	"$envmap" "Environment Maps/d1_trainstation_05"
+	"$envmaptint" "[ .35 .35 .35 ]"
+	//"$envmapmask" "de_piranesi/marblefloor10_spec"
+} 

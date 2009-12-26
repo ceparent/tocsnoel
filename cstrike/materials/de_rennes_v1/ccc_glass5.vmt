@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	//"$basetexture" "Models/props_trainstation/trainstation_clock_glass001"
+	"$basetexture" "de_rennes_v1/glasswindow070a"
+	"$envmap" "shadertest/GooInGlass_envglass"
+	//"$envmap" "shadertest/shadertest_env"
+	"$surfaceprop" "glass"
+	"$translucent" 1
+	"$lightmaptint" 0.1
+}
