@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "de_rennes_v1/dev_cratewood01a"
+	"$surfaceprop" "wood"
+}

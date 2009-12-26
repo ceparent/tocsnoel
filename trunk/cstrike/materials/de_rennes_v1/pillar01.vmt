@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_rennes_v1/pillar01_env"
+	"$surfaceprop" "concrete"
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[ .35 .35 .35 ]"
+} 

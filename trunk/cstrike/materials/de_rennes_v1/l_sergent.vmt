@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_rennes_v1/l_sergent"
+	"$surfaceprop" "plastic"
+	"$envmap" "Environment Maps/train_01"
+	"$envmaptint" "[ .50 .50 .50 ]"
+} 

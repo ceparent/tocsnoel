@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/metalwall046a"
+	"$surfaceprop" "metal"
+	"$envmap" "Environment Maps/cs_office"
+	"$envmaptint" "[ .25 .25 .25 ]"
+}
