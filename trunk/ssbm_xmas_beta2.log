@@ -1,0 +1,260 @@
+
+
+
+materialPath: c:\program files\steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\ssbm_xmas_beta2.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\ssbm_xmas_beta2.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (382136 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1633 texinfos to 845
+Reduced 22 texdatas to 20 (377 bytes to 334)
+Writing C:\Users\Moi\Desktop\tocs_noel\ssbm_xmas_beta2.bsp
+11 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\ssbm_xmas_beta2.bsp
+reading c:\users\moi\desktop\tocs_noel\ssbm_xmas_beta2.prt
+ 111 portalclusters
+ 301 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 5541
+Average clusters visible: 49
+Building PAS...
+Average clusters audible: 50
+visdatasize:3490  compressed from 3552
+writing c:\users\moi\desktop\tocs_noel\ssbm_xmas_beta2.bsp
+3 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files\steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\ssbm_xmas_beta2.bsp
+4327 faces
+3 degenerate faces
+2154422 square feet [310236864.00 square inches]
+48 displacements
+86355 square feet [12435233.00 square inches]
+4324 patches before subdivision
+27607 patches after subdivision
+146 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1136621, max 197
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13446, 13606, 13768)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1130, 1142, 1164)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(122, 123, 126)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 16, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0369 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 317/1024        15216/49152    (31.0%) 
+brushes                514/8192         6168/98304    ( 6.3%) 
+brushsides            7583/65536       60664/524288   (11.6%) 
+planes               11718/65536      234360/1310720  (17.9%) 
+vertexes              7138/65536       85656/786432   (10.9%) 
+nodes                 4129/65536      132128/2097152  ( 6.3%) 
+texinfos               845/12288       60840/884736   ( 6.9%) 
+texdata                 20/2048          640/65536    ( 1.0%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      479455/0          479455/0        ( 0.0%) 
+faces                 4327/65536      242312/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4004/65536      224224/3670016  ( 6.1%) 
+leaves                4447/65536      142304/2097152  ( 6.8%) 
+leaffaces             4341/65536        8682/131072   ( 6.6%) 
+leafbrushes            787/65536        1574/131072   ( 1.2%) 
+areas                   21/256           168/2048     ( 8.2%) 
+surfedges            39655/512000     158620/2048000  ( 7.7%) 
+edges                20357/256000      81428/1024000  ( 8.0%) 
+LDR worldlights        146/8192        12848/720896   ( 1.8%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples          22/1024          352/16384    ( 2.1%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     1115056/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3490/16777216 ( 0.0%) 
+entdata               [variable]      225629/393216   (57.4%) 
+LDR leaf ambient      4447/65536      106728/1572864  ( 6.8%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1338     ( 0.1%) 
+pakfile               [variable]      229928/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      382136/4194304  ( 9.1%) 
+==== Total Win32 BSP file data space used: 4346068 bytes ====
+
+Total triangle count: 12147
+Writing c:\users\moi\desktop\tocs_noel\ssbm_xmas_beta2.bsp
+1 minute, 42 seconds elapsed
+
+
+
+materialPath: C:\Program Files\Steam\steamapps\jaunais169\counter-strike source\cstrike\materials
+Loading C:\Users\Moi\Desktop\tocs_noel\ssbm_xmas_beta2.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Moi\Desktop\tocs_noel\ssbm_xmas_beta2.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/snowyhills*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/snowyhillsrt"
+Can't load skybox file skybox/snowyhills to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (382136 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1633 texinfos to 845
+Reduced 22 texdatas to 20 (377 bytes to 334)
+Writing C:\Users\Moi\Desktop\tocs_noel\ssbm_xmas_beta2.bsp
+12 seconds elapsed
+
+
+
+2 threads
+reading c:\users\moi\desktop\tocs_noel\ssbm_xmas_beta2.bsp
+reading c:\users\moi\desktop\tocs_noel\ssbm_xmas_beta2.prt
+ 111 portalclusters
+ 301 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 5541
+Average clusters visible: 49
+Building PAS...
+Average clusters audible: 50
+visdatasize:3490  compressed from 3552
+writing c:\users\moi\desktop\tocs_noel\ssbm_xmas_beta2.bsp
+3 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files\Steam\steamapps\jaunais169\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\users\moi\desktop\tocs_noel\ssbm_xmas_beta2.bsp
+4327 faces
+3 degenerate faces
+2154422 square feet [310236864.00 square inches]
+48 displacements
+86355 square feet [12435233.00 square inches]
+4324 patches before subdivision
+27607 patches after subdivision
+146 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1136621, max 197
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13446, 13606, 13768)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1130, 1142, 1164)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(122, 123, 126)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 16, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0117 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 317/1024        15216/49152    (31.0%) 
+brushes                514/8192         6168/98304    ( 6.3%) 
+brushsides            7583/65536       60664/524288   (11.6%) 
+planes               11718/65536      234360/1310720  (17.9%) 
+vertexes              7138/65536       85656/786432   (10.9%) 
+nodes                 4129/65536      132128/2097152  ( 6.3%) 
+texinfos               845/12288       60840/884736   ( 6.9%) 
+texdata                 20/2048          640/65536    ( 1.0%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts           13872/0          277440/0        ( 0.0%) 
+disp_tris            24576/0           49152/0        ( 0.0%) 
+disp_lmsamples      479455/0          479455/0        ( 0.0%) 
+faces                 4327/65536      242312/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4004/65536      224224/3670016  ( 6.1%) 
+leaves                4447/65536      142304/2097152  ( 6.8%) 
+leaffaces             4341/65536        8682/131072   ( 6.6%) 
+leafbrushes            787/65536        1574/131072   ( 1.2%) 
+areas                   21/256           168/2048     ( 8.2%) 
+surfedges            39655/512000     158620/2048000  ( 7.7%) 
+edges                20357/256000      81428/1024000  ( 8.0%) 
+LDR worldlights        146/8192        12848/720896   ( 1.8%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples          22/1024          352/16384    ( 2.1%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     1115056/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3490/16777216 ( 0.0%) 
+entdata               [variable]      225629/393216   (57.4%) 
+LDR leaf ambient      4447/65536      106728/1572864  ( 6.8%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1338     ( 0.1%) 
+pakfile               [variable]      229928/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      382136/4194304  ( 9.1%) 
+==== Total Win32 BSP file data space used: 4346068 bytes ====
+
+Total triangle count: 12147
+Writing c:\users\moi\desktop\tocs_noel\ssbm_xmas_beta2.bsp
+1 minute, 32 seconds elapsed
