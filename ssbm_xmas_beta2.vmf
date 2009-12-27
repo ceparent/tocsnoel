@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4037"
-	"mapversion" "278"
+	"mapversion" "280"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "278"
+	"mapversion" "280"
 	"classname" "worldspawn"
 	"skyname" "snowyhills"
 	"maxpropscreenwidth" "-1"
@@ -32847,7 +32847,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "-1520.5 1156.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-12"
 	solid
 	{
 		"id" "36615"
@@ -36007,7 +36007,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "-1520.5 556.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-13"
 	solid
 	{
 		"id" "36772"
@@ -39167,7 +39167,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "-1020.5 1156.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-11"
 	solid
 	{
 		"id" "36929"
@@ -42327,7 +42327,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "-520.5 556.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-15"
 	solid
 	{
 		"id" "37086"
@@ -45487,7 +45487,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "-1020.5 1756.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-2"
 	solid
 	{
 		"id" "37243"
@@ -48647,7 +48647,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "-520.5 1756.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-3"
 	solid
 	{
 		"id" "37400"
@@ -51807,7 +51807,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "-20.5 1756.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-4"
 	solid
 	{
 		"id" "37714"
@@ -54967,7 +54967,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "479.5 1756.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-5"
 	solid
 	{
 		"id" "37871"
@@ -58127,7 +58127,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "979.5 1756.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-6"
 	solid
 	{
 		"id" "38028"
@@ -61287,7 +61287,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "-1020.5 556.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-14"
 	solid
 	{
 		"id" "38813"
@@ -64447,7 +64447,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "-520.5 1156.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-10"
 	solid
 	{
 		"id" "38970"
@@ -67607,7 +67607,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "-20.5 1156.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-9"
 	solid
 	{
 		"id" "39127"
@@ -70767,7 +70767,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "479.5 1156.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-8"
 	solid
 	{
 		"id" "39441"
@@ -73927,7 +73927,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "979.5 1156.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-7"
 	solid
 	{
 		"id" "39598"
@@ -77087,7 +77087,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "479.5 556.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-17"
 	solid
 	{
 		"id" "39755"
@@ -80247,7 +80247,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "979.5 556.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-18"
 	solid
 	{
 		"id" "39912"
@@ -83407,7 +83407,7 @@ entity
 	"StartDisabled" "0"
 	"spawnflags" "1"
 	"origin" "-20.5 556.5 2066.5"
-	"target" "ssbm_power-teleport_destination-1"
+	"target" "ssbm_power-teleport_destination-16"
 	solid
 	{
 		"id" "40069"
@@ -83752,13 +83752,28 @@ entity
 		"logicalpos" "[0 500]"
 	}
 }
+entity
+{
+	"id" "42067"
+	"classname" "info_teleport_destination"
+	"angles" "0 0 0"
+	"targetname" "ssbm_power-teleport_destination-4"
+	"origin" "520 -1060 -88"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[114.931 -667.474 1689.09]"
-		"look" "[104.871 -379.441 1620.53]"
+		"position" "[1438.19 1334.56 2526.28]"
+		"look" "[1208.41 1357.08 2340.65]"
 	}
 }
 cordon
