@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4037"
-	"mapversion" "280"
+	"mapversion" "281"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "280"
+	"mapversion" "281"
 	"classname" "worldspawn"
 	"skyname" "snowyhills"
 	"maxpropscreenwidth" "-1"
@@ -29715,7 +29715,8 @@ entity
 	"InitialValue" "1"
 	connections
 	{
-		"OnEqualTo" "tueur_final,Enable,,0,1"
+		"OnEqualTo" "tueur_final,Enable,,0,-1"
+		"OnNotEqualTo" "tueur_final,Disable,,0,-1"
 	}
 	"origin" "-86.7208 -202.942 1288"
 	editor
@@ -29731,8 +29732,10 @@ entity
 	"id" "35399"
 	"classname" "logic_timer"
 	"targetname" "timer"
-	"RefireTime" "1"
+	"RefireTime" "2"
 	"spawnflags" "0"
+	"LowerRandomBound" "0"
+	"UpperRandomBound" "0"
 	connections
 	{
 		"OnTimer" "tueur_compteur,CountPlayersInZone,,0,-1"
@@ -83772,8 +83775,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1438.19 1334.56 2526.28]"
-		"look" "[1208.41 1357.08 2340.65]"
+		"position" "[-142.789 128.421 942.511]"
+		"look" "[-180.616 342.889 741.671]"
 	}
 }
 cordon
